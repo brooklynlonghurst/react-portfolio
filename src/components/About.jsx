@@ -1,4 +1,5 @@
 import React from 'react'
+// import { annotate, annotationGroup } from 'rough-notation';
 
 function About() {
     return (
@@ -12,6 +13,15 @@ function About() {
             <button className='github-button' onClick={(e) => {e.preventDefault(); window.location.href="https://github.com/brooklynlonghurst"}}>GitHub</button> 
             <button className='linkedin-button' onClick={(e)=> {e.preventDefault(); window.location.href="https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/"}}>LinkedIn</button> 
         </div>
+
+
+{/* const a1 = annotate(document.getElementById('developer'), { { type: 'highlight', color: 'rgb(244, 214, 244)', iterations: 1 }});
+const a2 = annotate(document.getElementById('react'), { {type: 'highlight', color: 'rgb(244, 214, 244)', iterations: 1 }});
+const a3 = annotate(document.getElementById('javascript'), { {type: 'highlight', color: 'lightyellow', iterations: 1 }});
+const a4 = annotate(document.getElementById('css'), { {type: 'highlight', color: 'lightblue', iterations: 1 }});
+
+const ag = annotationGroup([a1, a2, a3, a4]);
+ag.show(); */}
 
         <div class="img-container">
             <img src={require("./Brooklyn-Longhurst-img.png")} alt="Brooklyn Longhurst img" class="self-img" /> 
