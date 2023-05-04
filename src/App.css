@@ -141,6 +141,7 @@ h2 {
 }
 
 .contact-container {
+  border: none;
   inline-size: 600px;
   position: relative;
   margin-left: 100px;
@@ -182,9 +183,38 @@ h2 {
   flex-direction: row;
 }
 
-/* .contact-inputs {
- 
-} */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  
+  padding-bottom: 2rem;
+}
+.contact-inputs {
+  background: transparent;
+  border: 2px solid black;
+  width: 20rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+}
+
+.contact-inputs:focus {
+  box-shadow: 2px 2px 2px 2px rgb(244, 214, 244);;
+  outline: 2px solid rgb(244, 214, 244);
+}
+
+.contact-textarea {
+  background: transparent;
+  border: 2px solid black;
+  width: 20rem;
+  height: 150px;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+}
+
+.contact-textarea:focus {
+  box-shadow: 2px 2px 2px 2px rgb(244, 214, 244);;
+  outline: 2px solid rgb(244, 214, 244);
+}
 
 .gmail-icon {
   width: 60px;
