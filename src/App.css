@@ -233,6 +233,10 @@ h2 {
   box-shadow: 3px 3px 3px 3px rgb(244, 214, 244);
 }
 
+.linkedIn-link {
+  text-decoration: underline;
+}
+
 
 .gmail-icon {
   width: 60px;
