@@ -216,6 +216,24 @@ h2 {
   outline: 2px solid rgb(244, 214, 244);
 }
 
+/* .button-container {
+  display: flex;
+  justify-content: center;
+} */
+
+.contact-button {
+  width: 125px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.contact-button:hover {
+  box-shadow: 3px 3px 3px 3px rgb(244, 214, 244);
+}
+
+
 .gmail-icon {
   width: 60px;
   height: 45px;
