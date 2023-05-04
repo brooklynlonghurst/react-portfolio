@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser';
 
+
 function Contact() {
     const form = useRef();
 
@@ -20,6 +21,7 @@ function Contact() {
             console.log(error.text);
         });
     };
+
 
     return (
     <div class="contact-container" id="contact-section">
