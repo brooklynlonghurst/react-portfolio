@@ -9,8 +9,8 @@ function Projects() {
                 <h3>The Botanical Blog</h3>
                 <p>Created a platform for plant enthusiasts to share their passion by developing a blog using vanilla JavaScript, CSS, Express, and Axios.</p>
                 <div className='project-buttons'>
-                <button className='github-button' onClick={(e) => {e.preventDefault(); window.location.href="https://github.com/brooklynlonghurst/foundation-capstone"}}>GitHub</button> 
-                <button className='youtube-button' onClick={(e) => {e.preventDefault(); window.location.href="https://www.youtube.com/watch?v=GpynHUCG-L8"}}>Demo</button>
+                <button className='github-button' onClick={(e) => {e.preventDefault(); window.location.href="https://github.com/brooklynlonghurst/foundation-capstone"}} target="_blank">GitHub</button> 
+                <button className='youtube-button' onClick={(e) => {e.preventDefault(); window.location.href="https://www.youtube.com/watch?v=GpynHUCG-L8"}} target="_blank">Demo</button>
                 </div>
             </div>
             
