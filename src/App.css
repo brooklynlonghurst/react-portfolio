@@ -1,6 +1,6 @@
 * {
   font-family: 'Mukta Mahee', sans-serif;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 25px;
 }
 
@@ -12,6 +12,10 @@ body {
   margin: 10px;
 }
 
+.App {
+  background-color: white;
+  border: 10px solid rgb(244, 214, 244)
+}
 /* span, h1, h2, h3, p {
   background-color: transparent;
 } */
@@ -98,6 +102,7 @@ a:visited {
   align-items: center;
   align-content: flex-start;
   gap: 25rem;
+  
 }
 
 .intro-container{
@@ -214,6 +219,10 @@ h2 {
 .contact-textarea:focus {
   box-shadow: 2px 2px 2px 2px rgb(244, 214, 244);;
   outline: 2px solid rgb(244, 214, 244);
+}
+
+button {
+  background-color: white;
 }
 
 /* .button-container {
