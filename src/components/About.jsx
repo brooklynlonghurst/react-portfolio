@@ -10,7 +10,7 @@ function About() {
             <p>I have a strong growth mindset and a passion for creating. I'm determined to see things through and enjoy lifting teams to success with my positivity and kindness.</p>
             <p>I'm currently looking for a new role as a developer. So let's talk!</p> 
             <button className='github-button' onClick={(e) => {e.preventDefault(); window.location.href="https://github.com/brooklynlonghurst"}} target="_blank">GitHub</button> 
-            <button className='linkedin-button' onClick={(e)=> {e.preventDefault(); window.location.href="https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/"}} target="_blank">LinkedIn</button> 
+            <button className='linkedin-button' onClick={() => window.open("https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/", "_blank")}>LinkedIn</button>
         </div>
 
         <div class="img-container">
