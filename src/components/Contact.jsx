@@ -26,7 +26,7 @@ function Contact() {
     return (
     <div class="contact-container" id="contact-section">
     <h2>Contact</h2>
-    <p>I would love to hear from you! You can message me directly below, email me at brooklyn.longhurst@gmail.com or contact me through <a href='https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/' className='linkedIn-link'>LinkedIn.</a></p>
+    <p>I would love to hear from you! You can message me directly below, email me at brooklyn.longhurst@gmail.com or contact me through <a href='https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/' className='linkedIn-link' target="_blank">LinkedIn.</a></p>
         <section class="">
             <div className='contact-form'>
                 <form ref={form} onSubmit={sendEmail}>
