@@ -24,7 +24,7 @@ function About() {
           determined to see things through and <RoughNotation type="highlight" show={true} color="#7FB7BE70" iterations={1}>enjoy lifting teams to success </RoughNotation>with my positivity and kindness.
         </p>
         <p>
-          I'm currently looking for a new role as a developer. <RoughNotation type="circle" show={true} color="#DB7F6760" iterations={3}>So let's talk!</RoughNotation>
+          I'm currently looking for a new role as a developer. <RoughNotation type="circle" show={true} color="#DB7F6760" iterations={4}>So let's talk!</RoughNotation>
         </p>
         <button
           className="github-button"
