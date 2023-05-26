@@ -1,6 +1,6 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser';
-
+import { RoughNotation } from "react-rough-notation";
 
 function Contact() {
     const form = useRef();
@@ -26,7 +26,7 @@ function Contact() {
     return (
     <div class="contact-container" id="contact-section">
     <h2>Contact</h2>
-    <p>I would love to hear from you! You can message me directly below, email me at brooklyn.longhurst@gmail.com or contact me through <a href='https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/' className='linkedIn-link' target="_blank">LinkedIn.</a></p>
+    <p>I would love to <RoughNotation type='highlight' show={true} color="#FFB10070" iterations={1}>hear from you</RoughNotation>! You can message me directly below, email me at brooklyn.longhurst@gmail.com or contact me through <a href='https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/' className='linkedIn-link' target="_blank">LinkedIn.</a></p>
         <section class="">
             <div className='contact-form'>
                 <form ref={form} onSubmit={sendEmail}>
