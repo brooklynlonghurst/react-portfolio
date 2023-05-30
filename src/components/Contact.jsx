@@ -38,9 +38,6 @@ function Contact() {
                     </div>
                 </form>
             </div>
-            {/* <div>
-                <a href="https://www.linkedin.com/in/brooklyn-longhurst-bb1118268/"><img class="linkedin-icon" src="https://www.svgrepo.com/show/922/linkedin.svg" alt='linkedin-icon'/></a>
-            </div> */}
         </section>
     </div>
     )
