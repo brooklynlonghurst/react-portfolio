@@ -23,7 +23,7 @@ function Projects() {
                 <p>Built a React app for kids, utilizing Node.js, Express, and a Postgres Database created with Sequelize, to facilitate learning about constellations through games.</p>
                 <div className='project-buttons'>
                     <button className='github-button' onClick={() => window.open("https://github.com/brooklynlonghurst/specialization-capstone", "_blank")}>GitHub</button>
-                    <button className='youtube-button' onClick={() => window.open("https://www.youtube.com/watch?v=AcwHz5TgH14", "_blank")}>Demo</button>
+                    <button className='youtube-button' onClick={() => window.open("https://constellation-kids.herokuapp.com/", "_blank")}>Website</button>
                 </div>
             </div>
         </section>
