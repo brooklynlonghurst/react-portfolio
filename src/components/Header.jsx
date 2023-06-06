@@ -11,7 +11,6 @@ function Header() {
         class="contact-tag" 
         href='https://docs.google.com/document/d/1LQA8-r6B4Y_Oid-4jiG-tXKHBK6uygWBKr0EVLEG-PA/edit?usp=sharing'
         target="_blank"
-        rel="noreferrer"
         >Resume</a>
         </div>
     </div>
